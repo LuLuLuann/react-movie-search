@@ -1,0 +1,27 @@
+.searchForm{
+  margin-top: 30px;
+  text-align: center; 
+}
+.movieBox{
+  background-color: rgb(47, 240, 240);
+  border: 5px solid black;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px; 
+  width: fit-content;
+  color: black;
+  text-align: center; 
+  margin-top: 100px;
+}
+
+.moviePoster{
+  border: 5px solid rgb(13, 13, 0);
+  border-radius: 10px;
+}
+
+body{ 
+  display: flex; 
+  justify-content: center; 
+  background-color: rgb(244, 244, 138);
+}
+
