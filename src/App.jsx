@@ -24,7 +24,7 @@ const getMovie = async(searchTerm) => {
   try {
   // Make fetch request and store the response
   const response = await fetch(
-    `http://www.omdbapi.com/?apikey=${import.meta.env.VITE_OMDB_API_KEY}&t=${searchTerm}&type=movie`
+    `https://www.omdbapi.com/?apikey=${import.meta.env.VITE_OMDB_API_KEY}&t=${searchTerm}&type=movie`
   );
   // Parse JSON response into a JavaScript object
   const data = await response.json();
