@@ -25,6 +25,9 @@ const handleSubmit = (event) => {
 
   return (
     <div>
+      <h1
+      className="title"
+      >Movie Search</h1>
       <form 
       onSubmit={handleSubmit}
       className="searchForm"
@@ -34,12 +37,16 @@ const handleSubmit = (event) => {
         <input type="radio" value="series"/> Series */}
 
         <input
+        className="inputBox"
           type="text"
           name="searchterm"
           onChange={handleChange}
           value={formData.searchterm}
         />
-        <input type="submit" value="submit" />
+        <input 
+        className ="submitButton"
+        type="submit" 
+        value="Submit" />
       </form>
     
     </div>

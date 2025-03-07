@@ -1,5 +1,28 @@
+/* .title{
+  
+} */
+.inputBox{
+  font-size: 30px;
+  border-radius: 10px;
+  border: 10px solid rgb(78, 193, 193);
+  display: flex; 
+  justify-content: center; 
+}
+
+.submitButton {
+  background-color: black;
+  color:rgb(244, 244, 138);
+  font-size: 30px;
+  font-weight: bolder;
+  padding: 5px; 
+  border: 7px solid rgb(78, 193, 193);
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 10px;
+  
+}
 .searchForm{
-  margin-top: 30px;
+  /* margin-top: 30px; */
   text-align: center; 
 }
 .movieBox{
